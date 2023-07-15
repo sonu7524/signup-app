@@ -7,7 +7,8 @@ import Message from './Message';
 
 function App() {
   return (
-    <div className='main-content'>
+    <section>
+      <div className='main-content'>
       <div className='left-content'>
         <h3>Find 3D Objects, Mockups and Ilustration here</h3>
       </div>
@@ -28,6 +29,8 @@ function App() {
         <Message />
       </div>
     </div>
+    </section>
+    
   );
 }
 
