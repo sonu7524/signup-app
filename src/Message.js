@@ -58,7 +58,7 @@ const Message = () =>{
         onChange={(e) => setPassword(e.target.value)}
       />
       <input
-        type="password"
+        type="text"
         placeholder="Confirm Password"
         value={confirmPassword}
         className="input"
